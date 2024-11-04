@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         val currentMonth = calendar.get(Calendar.MONTH) + 1 // Calendar.MONTH 从0开始
         val currentDay = calendar.get(Calendar.DAY_OF_MONTH)
 
-        if (currentYear > 2024 || (currentYear == 2024 && currentMonth > 11) || (currentYear == 2024 && currentMonth == 11 && currentDay > 1)) {
+        if (currentYear > 2024 || (currentYear == 2024 && currentMonth > 12) || (currentYear == 2024 && currentMonth == 12 && currentDay > 1)) {
             // 弹出对话框提示过期
             val builder = AlertDialog.Builder(this)
             builder.setTitle("过期提示")

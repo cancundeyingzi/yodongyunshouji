@@ -52,7 +52,7 @@
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="查看复制端口"
+            android:text="查看复制(对应10000的)端口"
             android:layout_marginTop="16dp"
             android:onClick="button6Action" />
 
